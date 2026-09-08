@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#fdfcfa" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <title>Adapting Neural Robot Dynamics on the Fly for Predictive Control</title>
   <meta name="description" content="Adapting Neural Robot Dynamics on the Fly for Predictive Control — Abdullah Altawaitan, Nikolay Atanasov, UC San Diego." />
   <link rel="stylesheet" href="style.css" />
@@ -37,7 +38,7 @@
       <div class="abstract-callout">
         <h2 class="abstract-callout__title">Abstract</h2>
         <p class="abstract-callout__text">
-          Accurate dynamics models are critical for the design of predictive controller for autonomous mobile robots. Physics-based models are often too simple to capture relevant real-world effects, while data-driven models are data-intensive and slow to train. We introduce an approach for fast adaptation of neural robot dynamic models that combines offline training with efficient online updates. Our approach learns an incremental neural dynamics model offline and performs low-rank second-order parameter adaptation online, enabling rapid updates without full retraining. We demonstrate the approach on a real quadrotor robot, achieving robust predictive tracking control in novel operational conditions.
+          Accurate dynamics models are critical for the design of predictive controllers for autonomous mobile robots. Physics-based models are often too simple to capture relevant real-world effects, while data-driven models are data-intensive and slow to train. We introduce an approach for fast adaptation of neural robot dynamic models that combines offline training with efficient online updates. Our approach learns an incremental neural dynamics model offline and performs low-rank second-order parameter adaptation online, enabling rapid updates without full retraining. We demonstrate the approach on a real quadrotor robot, achieving robust predictive tracking control in novel operational conditions.
         </p>
       </div>
     </section>
@@ -47,7 +48,14 @@
     <section class="section">
       <h2 class="section__title">Video</h2>
       <div class="video-wrapper">
-        <div class="video-placeholder">Video coming soon</div>
+        <iframe
+          src="https://www.youtube.com/embed/xkW8fVTuYRE"
+          title="Adapting Neural Robot Dynamics on the Fly for Predictive Control"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
       </div>
     </section>
 
